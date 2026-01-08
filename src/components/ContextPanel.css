@@ -1,0 +1,87 @@
+.context-panel {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  height: fit-content;
+  position: sticky;
+  top: 20px;
+}
+
+.context-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.context-header h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.context-status {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  background: rgba(76, 175, 80, 0.2);
+  border: 1px solid rgba(76, 175, 80, 0.3);
+  border-radius: 12px;
+  color: #4caf50;
+}
+
+.context-section {
+  margin-bottom: 20px;
+}
+
+.context-section h4 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.context-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8px 0;
+  gap: 10px;
+}
+
+.context-label {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  min-width: 100px;
+}
+
+.context-value {
+  font-size: 0.85rem;
+  color: white;
+  text-align: right;
+  font-weight: 500;
+  word-break: break-word;
+}
+
+.context-footer {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.context-footer small {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.4;
+}
+
+@media (max-width: 968px) {
+  .context-panel {
+    position: relative;
+    top: 0;
+  }
+}
